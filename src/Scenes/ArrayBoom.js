@@ -104,7 +104,7 @@ class ArrayBoom extends Phaser.Scene {
         this.bulletSpeed = 5;
 
         // update HTML description
-        document.getElementById('description').innerHTML = '<h2>Gator Gamble: Level 1 - Reach 7250 points to win!</h2><br>A: left // D: right // Space: fire/emit'
+        document.getElementById('description').innerHTML = '<h2>Gator Gamble: Level 1 - Reach 750 points to win!</h2><br>A: left // D: right // Space: fire/emit'
 
         // Put score on screen
         my.text.score = this.add.bitmapText(350, 0, "rocketSquare", "Score " + this.myScore);
